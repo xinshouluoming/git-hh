@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <EditText
+    android:id="@+id/zhanghao"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="请输入账号："
+
+    />
+    <EditText
+        android:layout_below="@+id/zhanghao"
+        android:layout_marginTop="5dp"
+        android:id="@+id/minngm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码："
+        />
+    <EditText
+        android:layout_below="@+id/minngm"
+        android:layout_marginTop="5dp"
+        android:id="@+id/minngm2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入权限：老师或学生"
+        />
+    <CheckBox
+        android:layout_below="@+id/minngm"
+        android:layout_alignParentRight="true"
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否记住密码"
+
+        />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textview"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="ok"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:background="#ff00ff"
+
+        />
+
+</RelativeLayout>

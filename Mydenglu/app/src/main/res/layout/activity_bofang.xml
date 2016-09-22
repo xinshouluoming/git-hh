@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    tools:context="com.example.administrator.mydenglu.activity.BoFang_Activity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <VideoView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/videoView"
+        />
+
+</RelativeLayout>
